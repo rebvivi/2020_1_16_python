@@ -2,9 +2,9 @@ import gym
 import ballbeam_gym
 
 # pass env arguments as kwargs
-kwargs = {'timestep': 0.05, 
-          'setpoint': 0.4,
-          'beam_length': 1.0,
+kwargs = {'timestep': 0.01, 
+          'setpoint': 0.25,
+          'beam_length': 1.08,
           'max_angle': 0.2,
           'init_velocity': 0.0}
 
